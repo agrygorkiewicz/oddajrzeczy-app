@@ -8,6 +8,7 @@ const NavHome = () => {
     return (
         <>
             <header>
+
                 <div className="login-register">
                     {/*<Link to="/login">*/}
                         <p>Zaloguj</p>

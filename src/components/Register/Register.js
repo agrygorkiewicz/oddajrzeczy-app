@@ -3,6 +3,7 @@ import React, {useReducer, useState} from "react";
 import Decoration from "../../assets/Decoration.svg";
 import {Link} from "react-router-dom";
 import db from "../firebase";
+
 import Nav from "../../components/Home/Nav";
 
 
