@@ -1,0 +1,57 @@
+@import "settings/colors";
+@import "settings/fonts";
+
+
+.login-register {
+  font-family: $fontOpen;
+  display: flex;
+  justify-content: flex-end;
+  margin-right: 80px;
+  margin-top: 7px;
+  position: relative;
+  text-decoration: none;
+
+  a  {
+    margin: 10px;
+    font-size: 12px;
+    color: $color4;
+    text-decoration: none;
+    padding: 10px;
+
+  }  a:hover {
+       border: 1px solid $color3;
+       padding: 10px;
+       text-decoration: none;
+     }
+}
+
+
+
+nav ul {
+  display: flex;
+  justify-content: flex-end;
+  margin-right: 80px;
+a {
+  text-decoration: none;
+}
+  li {
+    list-style: none;
+    font-size: 14px;
+    margin: 6px;
+    text-decoration: none;
+    color: $color5;
+    padding: 6px;
+    a {
+      text-decoration: none;
+      margin: 6px;
+      color: $color5;
+      padding: 6px;
+
+    }
+  }
+}
+
+li:first-child {
+  border: 1px solid $color5;
+}
+

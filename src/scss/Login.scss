@@ -1,0 +1,90 @@
+@import "settings/colors";
+@import "settings/fonts";
+
+
+.login-section {
+  //height: 100vh;
+
+  h2 {
+    padding: 8px;
+    font-family: $fontOpen;
+  }
+}
+
+.login-box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin: 50px;
+  height: 55%;
+
+  h2 {
+    font-weight: lighter;
+    font-size: 26px;
+
+  }
+
+  img {
+    width: 180px;
+    height: auto;
+    padding: 10px;
+    margin-bottom: 20px;
+  }
+}
+
+
+.login-input {
+  display: flex;
+  flex-direction: column;
+  margin: 15px;
+
+  input {
+    width: 95%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    background: unset;
+    height: 23%;
+
+  }
+
+  label {
+    font-size: 13px;
+    margin-bottom: 8px;
+  }
+}
+
+.login-button {
+  display: flex;
+  justify-content: space-evenly;
+  flex-direction: row;
+
+  button {
+    border: 1px solid black;
+    background-color: unset;
+    font-family: $fontOpen;
+    padding: 10px;
+
+  }
+  button:nth-child(2) {
+    border: 1px solid black;
+
+  }
+
+}
+
+.login-form {
+  background-color: #F0F1F1;
+  width: 24%;
+  height: 50%;
+}
+
+.section-inputs {
+  margin: 12% auto;
+  width: 80%;
+
+}

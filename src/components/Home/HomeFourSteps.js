@@ -5,7 +5,7 @@ import Icon1 from "../../assets/Icon-1.svg";
 import Icon2 from "../../assets/Icon-2.svg";
 import Icon3 from "../../assets/Icon-3.svg";
 import Icon4 from "../../assets/Icon-4.svg";
-// import {Link} from "react-router-dom";
+import {Link} from "react-router-dom";
 
 const HomeFourSteps = () => {
     return (
@@ -39,9 +39,9 @@ const HomeFourSteps = () => {
                 </div>
             </div>
             <div className="button-give">
-                {/*<Link to="/login">*/}
+                <Link to="/login">
                 <p>ODDAJ RZECZY</p>
-                {/*</Link>*/}
+                </Link>
             </div>
         </section>
     ) };
