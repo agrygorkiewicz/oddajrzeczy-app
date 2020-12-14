@@ -1,6 +1,6 @@
 import "../../scss/NavHome.scss";
 import React from "react";
-// import {Link} from "react-router-dom";
+import {Link} from "react-router-dom";
 import AnchorLink from 'react-anchor-link-smooth-scroll';
 
 const NavHome = () => {
@@ -11,9 +11,9 @@ const NavHome = () => {
                     {/*<Link to="/login">*/}
                         <p>Zaloguj</p>
                     {/*</Link>*/}
-                    {/*<Link to="/register">*/}
+                    <Link to="/register">
                         <p >Załóż konto</p>
-                    {/*</Link>*/}
+                    </Link>
                 </div>
                 <div className="navigation-home">
 
