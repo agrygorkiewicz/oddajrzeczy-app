@@ -77,7 +77,7 @@ const Register = () => {
             console.log("błąd");
             return
         }
-        db.auth()
+        db.auth().firestore()
             .createUserWithEmailAndPassword(email, password)
             .catch(error =>
                 alert(`Konto z tym adresem już istnieje, zaloguj się lub użyj innego adresu email, ${error}`)
