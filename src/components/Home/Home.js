@@ -9,8 +9,8 @@ import HomeThreeColumns from "./HomeThreeColumns";
 import HomeFourSteps from "./HomeFourSteps";
 import HomeAboutUs from "./HomeAboutUs";
 import HomeHelping from "./HomeHelping";
-// import HomeContactForm from "./HomeContactForm";
-// import Footer from "./Footer";
+import HomeContactForm from "./HomeContactForm";
+import Footer from "./Footer";
 
 const Home = () => {
     return (
@@ -21,8 +21,8 @@ const Home = () => {
             <HomeFourSteps/>
             <HomeAboutUs/>
             <HomeHelping/>
-            {/*<HomeContactForm/>*/}
-            {/*<Footer/>*/}
+            <HomeContactForm/>
+            <Footer/>
         </>
     )
 }

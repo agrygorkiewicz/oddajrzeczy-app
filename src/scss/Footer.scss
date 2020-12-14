@@ -1,0 +1,27 @@
+@import "settings/colors";
+@import "settings/fonts";
+
+footer {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  position: relative;
+  z-index: -1;
+  bottom: 40px;
+
+}
+
+.footer-icons {
+  display: flex;
+  position: absolute;
+  left: 85%;
+  top: -10px;
+
+  img {
+    flex-direction: row;
+    justify-content: end;
+    align-items: end;
+    margin: 10px;
+  }
+
+}

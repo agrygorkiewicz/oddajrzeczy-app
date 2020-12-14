@@ -1,0 +1,104 @@
+@import "settings/colors";
+@import "settings/fonts";
+
+
+// FORMULARZ KONTAKTOWY
+
+.contact {
+  height: auto;
+  display: flex;
+  position: relative;
+}
+
+.background-contact-section {
+  opacity: 0.2;
+  z-index: -1;
+  position: relative;
+
+  img {
+    width: 98vw;
+    height: 100vh;
+  }
+}
+
+
+.name-email-input {
+  display: flex;
+  justify-content: space-between;
+
+  input {
+    width: 200px;
+    margin-right: 10px;
+    height: 25px;
+
+  }
+}
+
+.contact-form {
+  height: 350px;
+  align-items: end;
+  padding: 50px 0;
+  position: absolute;
+  left: 65%;
+  top: -620px;
+
+
+}
+
+.form-title {
+  text-align: center;
+
+  h1 {
+    margin: 15px;
+    font-weight: lighter;
+    color: black;
+    font-size: 27px;
+
+  }
+
+  img {
+    width: 180px;
+    height: auto;
+    margin-bottom: 45px;
+  }
+}
+
+
+.contact-form form {
+  background: #fff;
+  padding: 35px 10px;
+  width: 70%;
+  margin: 50px auto;
+  font-size: 0.9em;
+  opacity: 1;
+
+}
+
+.form-group {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 30px;
+
+  label {
+    margin-bottom: 15px;
+    font-family: $fontOpen;
+
+
+    textarea {
+      width: 100%;
+      text-align: left;
+    }
+  }
+}
+
+.form-input {
+  border-top: none;
+  border-right: none;
+  border-left: none;
+  background: unset;
+
+}
+.btn-dark {
+  background: unset;
+  padding: 10px;
+}
