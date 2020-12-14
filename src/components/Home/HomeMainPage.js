@@ -2,7 +2,7 @@ import "../../scss/HomeMainPage.scss";
 import React from "react";
 import HomeImage from "../../assets/Home-Hero-Image.jpg";
 import Decoration from "../../assets/Decoration.svg";
-import {Link} from "react-router-dom";
+// import {Link} from "react-router-dom";
 
 
 
@@ -17,12 +17,12 @@ const HomeMainPage = () => {
                 <h1>Oddaj niechciane rzeczy w zaufane ręce</h1>
                 <img alt="" src={Decoration}/>
                 <div className="options-buttons">
-                    <Link to="/login">
+                    {/*<Link to="/login">*/}
                     <p>ODDAJ RZECZY</p>
-                    </Link>
-                    <Link to={"/login"}>
+                    {/*</Link>*/}
+                    {/*<Link to={"/login"}>*/}
                     <p>ZORGANIZUJ ZBIÓRKĘ</p>
-                    </Link>
+                    {/*</Link>*/}
 
                 </div>
             </div>

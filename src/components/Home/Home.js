@@ -1,4 +1,4 @@
-import "../../scss/Home.scss";
+
 import React from "react";
 import "../../scss/settings/colors.scss";
 

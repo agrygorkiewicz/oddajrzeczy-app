@@ -1,0 +1,63 @@
+@import "settings/colors";
+@import "settings/fonts";
+
+
+.home-image {
+
+
+  //z-index: -1;
+
+
+  img {
+    position: relative;
+    width: 850px;
+    height: auto;
+    left: -40%;
+    top:-100px;
+  }
+}
+
+.main-page {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  //top: -100px;
+  position: relative;
+  //z-index: -1;
+  padding: 20px;
+
+}
+
+.main-text {
+  position: relative;
+  text-align: center;
+  left: -12%;
+  top: -70px;
+  h1 {
+    font-size: 28px;
+    font-weight: normal;
+  }
+
+  img {
+    padding: 14px;
+  }
+}
+
+.options-buttons {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  a {
+    text-decoration: none;
+    max-width: 210px;
+  }
+
+  p {
+    border: 2px solid $color4;
+    margin: 15px;
+    padding: 12px;
+    font-size: 25px;
+    color: $color5;
+
+  }
+}
