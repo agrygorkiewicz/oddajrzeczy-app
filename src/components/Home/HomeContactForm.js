@@ -3,7 +3,7 @@ import React, {useState} from "react";
 import BackgroundContactForm from "../../assets/Background-Contact-Form.jpg";
 import Decoration from "../../assets/Decoration.svg";
 import db from "../firebase";
-
+require('firebase/database');
 
 const HomeContactForm = () => {
     const [name, setName] = useState("");
