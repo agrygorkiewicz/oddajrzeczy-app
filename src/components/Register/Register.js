@@ -3,7 +3,8 @@ import React, {useReducer, useState} from "react";
 import Decoration from "../../assets/Decoration.svg";
 import Nav from "../../components/Home/Nav";
 import {Link} from "react-router-dom";
-import db from "../firebase";
+import db from "firebase/app";
+import 'firebase/auth';
 require('firebase/auth');
 
 
