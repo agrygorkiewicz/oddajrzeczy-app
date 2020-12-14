@@ -5,8 +5,8 @@ import "../../scss/settings/colors.scss";
 // components
 import NavHome from "./NavHome";
 import HomeMainPage from "./HomeMainPage";
-// import HomeThreeColumns from "./HomeThreeColumns";
-// import HomeFourSteps from "./HomeFourSteps";
+import HomeThreeColumns from "./HomeThreeColumns";
+import HomeFourSteps from "./HomeFourSteps";
 // import HomeAboutUs from "./HomeAboutUs";
 // import HomeHelping from "./HomeHelping";
 // import HomeContactForm from "./HomeContactForm";
@@ -17,8 +17,8 @@ const Home = () => {
         <>
             <NavHome/>
             <HomeMainPage/>
-            {/*<HomeThreeColumns/>*/}
-            {/*<HomeFourSteps/>*/}
+            <HomeThreeColumns/>
+            <HomeFourSteps/>
             {/*<HomeAboutUs/>*/}
             {/*<HomeHelping/>*/}
             {/*<HomeContactForm/>*/}
