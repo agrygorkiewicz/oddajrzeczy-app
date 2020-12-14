@@ -1,0 +1,56 @@
+@import "settings/colors";
+@import "settings/fonts";
+
+
+.about-us {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #F0F1F1;
+}
+
+.about-us-text {
+  text-align: center;
+  width: 55%;
+  margin: 0 auto;
+
+  h1 {
+    font-size: 30px;
+    font-weight: lighter;
+  }
+}
+
+.about-us-text {
+  margin-top: 70px;
+  justify-content: center;
+  align-items: center;
+
+  img {
+    padding: 20px;
+
+  }
+
+  p {
+    font-size: 18px;
+    line-height: 40px;
+  }
+
+}
+
+
+.signature-image {
+  width: 200px;
+  height: 140px;
+  margin-left: 40%;
+  margin-top: 5%;
+
+}
+
+
+.about-us-picture {
+  img {
+    width: 100%;
+    height: auto;
+  }
+
+}

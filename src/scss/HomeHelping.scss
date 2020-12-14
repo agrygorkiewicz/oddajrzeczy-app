@@ -1,0 +1,115 @@
+@import "settings/colors";
+@import "settings/fonts";
+
+// KOMU POMAGAMY?
+
+.who-do-we-help {
+  text-align: center;
+
+  h1 {
+    margin-top: 35px;
+    text-align: center;
+    font-family: $fontOpen;
+    font-weight: lighter;
+    font-size: 32px;
+    //padding: 12px;
+
+  }
+
+  img {
+    width: 210px;
+    height: 70px;
+  }
+}
+
+.help-examples {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  margin : 10px;
+
+  button {
+    padding: 10px;
+    margin-bottom: 12px;
+    font-family: $fontOpen;
+    border: none;
+background-color: unset;
+    font-size: 16px;
+  }
+
+  button:hover {
+    border: 1px solid black;
+  }
+
+
+}
+
+.helping-section {
+  text-align: center;
+  width: 40%;
+  margin: 0 auto;
+  padding: 15px;
+  line-height: 26px;
+
+  p {
+    margin-bottom: 20px;
+  }
+}
+
+.section-article {
+  //display: flex;
+  //justify-content: center;
+}
+
+.article-text {
+  padding: 8px;
+  display: flex;
+  justify-content: space-between;
+  width: 80%;
+  margin: 0 auto;
+  //justify-content: space-around;
+  border-bottom: 1px solid grey;
+}
+
+.article-title {
+
+  font-family: $fontMerriweather;
+
+  h2 {
+    font-size: 18px;
+    font-weight: lighter;
+
+  }
+
+  p {
+    font-size: 14px;
+  }
+}
+
+.article-items {
+  display: flex;
+  justify-content: end;
+  align-items: center;
+}
+
+.page-number {
+  padding: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 10px;
+
+  p {
+    margin: 10px;
+    padding: 10px;
+  }
+
+  p:hover {
+    border: 1px solid black;
+  }
+
+}
+
+.collection-numbers {
+  color: unset;
+}
