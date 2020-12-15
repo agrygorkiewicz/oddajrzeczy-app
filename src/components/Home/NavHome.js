@@ -1,7 +1,7 @@
 import "../../scss/NavHome.scss";
 import React from "react";
-// import {Link} from "react-router-dom";
-import AnchorLink from 'react-anchor-link-smooth-scroll';
+import {Link} from "react-router-dom";
+// import AnchorLink from 'react-anchor-link-smooth-scroll';
 
 
 const NavHome = () => {
@@ -10,9 +10,9 @@ const NavHome = () => {
             <header>
 
                 <div className="login-register">
-                    {/*<Link to="/login">*/}
+                    <Link to="/login">
                         <p>Zaloguj</p>
-                    {/*</Link>*/}
+                    </Link>
                     {/*<Link to="/register">*/}
                         <p >Załóż konto</p>
                     {/*</Link>*/}
@@ -21,11 +21,11 @@ const NavHome = () => {
 
                     <nav>
                         <ul>
-                            <li><AnchorLink href='#main-page'>Start</AnchorLink></li>
-                            <li><AnchorLink href='#four-steps'>O co chodzi?</AnchorLink></li>
-                            <li><AnchorLink href='#about'>O nas</AnchorLink></li>
-                            <li><AnchorLink href='#section-help'>Fundacja i organizacje</AnchorLink></li>
-                            <li><AnchorLink href="#contact">Kontakt</AnchorLink></li>
+                            <li><a href={"/home#main-page"}>Start</a></li>
+                            <li><a name={"/home#four-steps"} href={"/home#four-steps"}>O co chodzi?</a></li>
+                            <li><a href={"/home#about"}>O nas</a></li>
+                            <li><a href={"/home#section-help"}>Fundacja i organizacje</a></li>
+                            <li><a href={"/home#contact"}>Kontakt</a></li>
 
                         </ul>
                     </nav>
