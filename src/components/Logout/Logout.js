@@ -1,8 +1,8 @@
 import React from "react";
 import "../../scss/Logout.scss";
 import Decoration from "../../assets/Decoration.svg";
-import {Link} from "react-router-dom";
-import Nav from "../../components/Home/Nav";
+// import {Link} from "react-router-dom";
+// import Nav from "../../components/Home/Nav";
 const Logout = () => {
     return (
         <>
