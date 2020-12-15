@@ -4,10 +4,10 @@ import "../../scss/Login.scss";
 import {Link} from "react-router-dom";
 // import HomeLoggedIn from "../../components/Loggedin/HomeLoggedIn";
 import Nav from "../../components/Home/Nav";
+import '../firebase.js';
 import firestore from "firebase/app"
-import 'firebase/app';
 import 'firebase/auth';
-require('firebase/auth');
+
 
 
 const Login2 = () => {
@@ -74,7 +74,9 @@ const Login2 = () => {
                     {error && <p style={{color: "tomato", fontSize:"18px", padding:"10px"}}>{error}</p>}
                     <div className="login-form">
                         <div className="section-inputs">
+                            <form>
                             <div className="login-input">
+
                                 <label htmlFor="email-input">Email</label>
                                 <input
                                     id="email-input"
@@ -82,7 +84,9 @@ const Login2 = () => {
                                     name="email"
                                     required
                                     onChange={handleInputChange}
-                                    value={email}/>
+                                    value={email}
+                                    autoComplete="email"
+                               />
 
                             </div>
                             <div className="login-input">
@@ -93,10 +97,12 @@ const Login2 = () => {
                                     id="password-input"
                                     required
                                     onChange={handleInputChange}
-                                    value={password}/>
+                                    value={password}
+                                autoComplete="current-password"/>
 
 
                             </div>
+                            </form>
                         </div>
                     </div>
                 </div>
