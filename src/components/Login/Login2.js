@@ -4,9 +4,11 @@ import "../../scss/Login.scss";
 import {Link} from "react-router-dom";
 // import HomeLoggedIn from "../../components/Loggedin/HomeLoggedIn";
 import Nav from "../../components/Home/Nav";
-import db from "firebase/app";
-import 'firebase/auth';
-require('firebase/auth');
+// import {firebase} from "../firebase.js"
+import {firestore} from "../firebase.js"
+// import db from "firebase/app";
+// import 'firebase/auth';
+// require('firebase/auth');
 
 
 const Login2 = () => {
@@ -55,7 +57,7 @@ const Login2 = () => {
             console.log("błąd");
             return
         }
-        db.auth()
+        firestore.auth()
             .signInWithEmailAndPassword(email, password)
             .catch(() =>
                 alert(`Nieprawidłowy email lub hasło`)

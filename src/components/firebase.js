@@ -1,4 +1,5 @@
 import firebase from "firebase";
+import fb from "firebase/app"
 
 const firebaseApp = firebase.initializeApp( {
     apiKey: "AIzaSyC2acakoD1nd2HjEkG64Sa2ECXGC_sVIZk",
@@ -9,6 +10,9 @@ const firebaseApp = firebase.initializeApp( {
     appId: "1:49501532307:web:fb6a6a05356eba9d7a1d66"
 })
 
-const db = firebaseApp//firestore();
+// const db = firebaseApp//firestore();
 
-export default db;
+
+const firestore = !fb.apps.length ? fb.initializeApp(firebaseApp) : fb.app()
+
+export {firestore};

@@ -1,11 +1,10 @@
+
 import React, { useState, useEffect } from "react";
 import Login2 from "./Login2";
-import db from "firebase/app";
-import 'firebase/auth';
-require('firebase/auth');
-
-// import Logout from "../../components/Logout/Logout";
-// import HomeLoggedIn from "../Loggedin/HomeLoggedIn";
+import {firestore} from "../firebase.js"
+// import db from "firebase/app";
+// import 'firebase/auth';
+// require('firebase/auth');
 
 
 const LoginPage2 = () => {
@@ -13,7 +12,7 @@ const LoginPage2 = () => {
 
 
     useEffect(() => {
-        db.auth().onAuthStateChanged(user => {
+        firestore.auth().onAuthStateChanged(user => {
             if (user) {
                 setCurrentUser(user);
                 localStorage.setItem("user", user.uid);
