@@ -1,0 +1,180 @@
+@import "settings/colors";
+@import "settings/fonts";
+
+.logged-in {
+  font-family: $fontOpen;
+  display: flex;
+  justify-content: flex-end;
+  margin-right: 80px;
+  margin-top: 7px;
+  position: relative;
+  text-decoration: none;
+
+  li {
+    margin: 10px;
+    font-size: 12px;
+    color: $color4;
+    text-decoration: none;
+    padding: 10px;
+    list-style: none;
+
+  }
+
+  li:nth-child(2) {
+    border: 1px solid yellow;
+    padding: 10px;
+    text-decoration: none;
+    font-weight: normal;
+    color: black;
+  }
+  li:nth-child(3) {
+    border: 1px solid black;
+  }
+  h3 {
+    padding: 10px;
+  }
+
+}
+
+
+nav ul {
+  display: flex;
+  justify-content: flex-end;
+  margin-right: 80px;
+
+  a {
+    text-decoration: none;
+  }
+
+  li {
+    list-style: none;
+    font-size: 14px;
+    margin: 6px;
+    text-decoration: none;
+    padding: 6px;
+    color: $color5;
+    font-weight: normal;
+    a {
+      text-decoration: none;
+      margin: 6px;
+      color: $color5;
+      padding: 6px;
+
+    }
+  }
+}
+
+li:first-child {
+  border: 1px solid $color5;
+}
+
+
+
+// main page
+
+.home-cardigan-image {
+  position: relative;
+  //left: -5%;
+  z-index: -1;
+  top: -130px;
+left: 0;
+  img {
+    width: 850px;
+    height: auto;
+
+  }
+
+}
+
+.logged-main-page {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+
+  position: relative;
+  //z-index: -1;
+  padding: 20px;
+  left: -8%;
+
+}
+
+.logged-main-text {
+  text-align: center;
+  top: -130px;
+  position: relative;
+
+  h1 {
+    font-size: 28px;
+    font-weight: normal;
+  }
+
+  img {
+    padding: 14px;
+  }
+}
+
+.square-border {
+  font-size: 110px; /* Sterowanie rozmiarem figury. */
+  width: 1em;
+  height: 1em;
+  border: 1px solid black;
+  margin: 55px auto 0;
+  transform: rotate(45deg);
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  p {
+    font-size: 14px;
+  }
+}
+
+.four-squares {
+  display: flex;
+  color: $color5;
+}
+
+.main-options {
+  p {
+    margin: 0 auto;
+    padding: 0;
+  }
+}
+
+.square-text {
+  position: absolute;
+  transform: rotate(-45deg);
+
+  p {
+    font-size: 20px;
+    border: none;
+
+  }
+
+}
+
+.square {
+  //padding:15px;
+  margin: 15px;
+}
+
+
+// important section
+
+.important-section {
+  background-color: #FAD648;
+  margin-top: -166px;
+  padding: 5px;
+
+}
+
+.important-text {
+  margin-left: 110px;
+  padding: 30px;
+
+  h3 {
+    font-size: 22px;
+    margin-bottom: 5px;
+  }
+}

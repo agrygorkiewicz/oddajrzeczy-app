@@ -2,7 +2,7 @@ import React, { useState, useEffect } from "react";
 import Login2 from "./Login2";
 import db from "../firebase";
 // import Logout from "../../components/Logout/Logout";
-import HomeLoggedIn from "../Loggedin/HomeLoggedIn";
+// import HomeLoggedIn from "../Loggedin/HomeLoggedIn";
 
 
 const LoginPage2 = () => {
@@ -25,7 +25,7 @@ const LoginPage2 = () => {
       <>
             {currentUser ? (
                 <>
-                    <HomeLoggedIn/>
+                    <Login2/>
                 </>
             ) : (
                 <Login2 />
