@@ -1,6 +1,9 @@
 import React, { useState, useEffect } from "react";
 import Login2 from "./Login2";
-import db from "../firebase";
+import db from "firebase/app";
+import 'firebase/auth';
+require('firebase/auth');
+
 // import Logout from "../../components/Logout/Logout";
 // import HomeLoggedIn from "../Loggedin/HomeLoggedIn";
 

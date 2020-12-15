@@ -1,10 +1,12 @@
 import React, {useReducer, useState} from "react";
-import db from "../firebase";
 import Decoration from "../../assets/Decoration.svg";
 import "../../scss/Login.scss";
 import {Link} from "react-router-dom";
 // import HomeLoggedIn from "../../components/Loggedin/HomeLoggedIn";
 import Nav from "../../components/Home/Nav";
+import db from "firebase/app";
+import 'firebase/auth';
+require('firebase/auth');
 
 
 const Login2 = () => {
