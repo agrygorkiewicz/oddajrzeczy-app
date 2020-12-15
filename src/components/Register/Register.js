@@ -3,9 +3,7 @@ import React, {useReducer, useState} from "react";
 import Decoration from "../../assets/Decoration.svg";
 import Nav from "../../components/Home/Nav";
 import {Link} from "react-router-dom";
-import db from "firebase/app";
-import 'firebase/auth';
-require('firebase/auth');
+import {firestore} from "../firebase.js"
 
 
 const Register = () => {
@@ -78,7 +76,7 @@ const Register = () => {
             console.log("błąd");
             return
         }
-        db.auth()
+        firestore.auth()
             .createUserWithEmailAndPassword(email, password)
             .catch(error =>
                 alert(`Konto z tym adresem już istnieje, zaloguj się lub użyj innego adresu email, ${error}`)
