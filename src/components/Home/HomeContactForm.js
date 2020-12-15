@@ -2,7 +2,7 @@ import "../../scss/HomeContactForm.scss";
 import React, {useState} from "react";
 import BackgroundContactForm from "../../assets/Background-Contact-Form.jpg";
 import Decoration from "../../assets/Decoration.svg";
-import {firestore} from "../firebase"
+import firestore from "../firebase.js"
 import 'firebase/app';
 import 'firebase/firestore';
 require('firebase/firestore');
@@ -102,6 +102,6 @@ const [notification, setNotification] = useState(null);
             </section>
         </>
     )
-};
+}
 
 export default HomeContactForm;
