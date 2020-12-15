@@ -1,7 +1,7 @@
 import React, {useReducer, useState} from "react";
 import Decoration from "../../assets/Decoration.svg";
 import "../../scss/Login.scss";
-import {Link} from "react-router-dom";
+// import {Link} from "react-router-dom";
 // import HomeLoggedIn from "../../components/Loggedin/HomeLoggedIn";
 import Nav from "../../components/Home/Nav";
 import '../firebase.js';
@@ -118,11 +118,11 @@ const Login2 = () => {
                     >
                         zaloguj się
                     </button>
-                    <Link to="/register">
+                    {/*<Link to="/register">*/}
                         <button>
                             załóż konto
                         </button>
-                    </Link>
+                    {/*</Link>*/}
                 </div>
             </section>
         </>
