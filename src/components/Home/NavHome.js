@@ -13,9 +13,9 @@ const NavHome = () => {
                     <Link to="/login">
                         <p>Zaloguj</p>
                     </Link>
-                    <Link to="/register">
+                    {/*<Link to="/register">*/}
                         <p >Załóż konto</p>
-                    </Link>
+                    {/*</Link>*/}
                 </div>
                 <div className="navigation-home">
 

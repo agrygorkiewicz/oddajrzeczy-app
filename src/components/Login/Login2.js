@@ -4,10 +4,8 @@ import "../../scss/Login.scss";
 import {Link} from "react-router-dom";
 // import HomeLoggedIn from "../../components/Loggedin/HomeLoggedIn";
 import Nav from "../../components/Home/Nav";
-// import {firebase} from "../firebase.js"
-import {firestore} from "../firebase.js"
+import {firestore} from "../firebase"
 import 'firebase/app';
-// import db from "firebase/app";
 import 'firebase/auth';
 require('firebase/auth');
 
