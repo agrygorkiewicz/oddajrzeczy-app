@@ -35,7 +35,7 @@ const [notification, setNotification] = useState(null);
 
         } else if (!isError) {
 
-            db.firestore().collection("contacts").add({
+            db.collection("contacts").add({
                 name: name,
                 email: email,
                 message: message,
