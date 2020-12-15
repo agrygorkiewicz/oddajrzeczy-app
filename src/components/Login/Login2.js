@@ -6,9 +6,10 @@ import {Link} from "react-router-dom";
 import Nav from "../../components/Home/Nav";
 // import {firebase} from "../firebase.js"
 import {firestore} from "../firebase.js"
+import 'firebase/app';
 // import db from "firebase/app";
 import 'firebase/auth';
-// require('firebase/auth');
+require('firebase/auth');
 
 
 const Login2 = () => {

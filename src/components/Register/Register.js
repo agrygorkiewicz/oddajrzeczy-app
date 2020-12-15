@@ -4,7 +4,9 @@ import Decoration from "../../assets/Decoration.svg";
 import Nav from "../../components/Home/Nav";
 import {Link} from "react-router-dom";
 import {firestore} from "../firebase.js"
+import 'firebase/app';
 import 'firebase/auth';
+require('firebase/auth');
 
 const Register = () => {
     const [error, setError] = useState([]);

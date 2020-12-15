@@ -3,9 +3,10 @@ import React, {useState} from "react";
 import BackgroundContactForm from "../../assets/Background-Contact-Form.jpg";
 import Decoration from "../../assets/Decoration.svg";
 import {firestore} from "../firebase.js"
+import 'firebase/app';
 // import db from "firebase/app";
 import 'firebase/database';
-// require('firebase/database');
+require('firebase/database');
 
 const HomeContactForm = () => {
     const [name, setName] = useState("");
