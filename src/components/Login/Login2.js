@@ -7,7 +7,7 @@ import Nav from "../../components/Home/Nav";
 // import {firebase} from "../firebase.js"
 import {firestore} from "../firebase.js"
 // import db from "firebase/app";
-// import 'firebase/auth';
+import 'firebase/auth';
 // require('firebase/auth');
 
 

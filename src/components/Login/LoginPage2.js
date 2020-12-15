@@ -4,7 +4,7 @@ import Login2 from "./Login2";
 import {firestore} from "../firebase.js"
 import HomeLoggedIn from "./HomeLoggedIn";
 // import db from "firebase/app";
-// import 'firebase/auth';
+import 'firebase/auth';
 // require('firebase/auth');
 
 
