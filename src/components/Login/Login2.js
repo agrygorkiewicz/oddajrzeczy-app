@@ -3,7 +3,7 @@ import Decoration from "../../assets/Decoration.svg";
 import "../../scss/Login.scss";
 // import {Link} from "react-router-dom";
 // import HomeLoggedIn from "../../components/Loggedin/HomeLoggedIn";
-import NavHome from "../../components/Home/NavHome";
+import Nav from "../../components/Home/Nav";
 import db from "firebase/app"
 
 
@@ -65,7 +65,7 @@ const Login2 = () => {
 
     return (
         <>
-            <NavHome/>
+            <Nav/>
             <section className="login-section">
                 <div className="login-box">
                     <h2>Zaloguj się</h2>

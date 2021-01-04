@@ -1,9 +1,9 @@
 import "../../scss/Register.scss";
 import React, {useReducer, useState} from "react";
 import Decoration from "../../assets/Decoration.svg";
-import NavHome from "../../components/Home/NavHome";
-import {Link} from "react-router-dom";
+import Nav from "../../components/Home/Nav";
 import db from "firebase/app"
+import {Link as Link2} from "react-router-dom";
 
 const Register = () => {
     const [error, setError] = useState([]);
@@ -87,7 +87,7 @@ const Register = () => {
 
     return (
         <>
-        <NavHome/>
+        <Nav/>
         <section className="register-section">
             <div className="registration-box">
                 <h2>Załóż konto</h2>
@@ -132,9 +132,9 @@ const Register = () => {
 
             </div>
             <div className="register-button">
-                <Link to={"/login"}>
+                <Link2 to="/login">
                     <button>Zaloguj się</button>
-                </Link>
+                </Link2>
                 <button type="submit"
                         name="submit"
                         value="1"
