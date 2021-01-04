@@ -21,16 +21,19 @@
 import firebase from "firebase";
 
 const firebaseApp = firebase.initializeApp( {
-    apiKey: "AIzaSyB239bTa9Or2VIQZtMW9z3RE5Rk4wwRBiY",
-    authDomain: "test-79af3.firebaseapp.com",
-    databaseURL: "https://test-79af3.firebaseio.com",
-    projectId: "test-79af3",
-    storageBucket: "test-79af3.appspot.com",
-    messagingSenderId: "790398351253",
-    appId: "1:790398351253:web:a3f9197d244af5c817e89c"
+    apiKey: "AIzaSyDgru-lgPinEiZanu47ScG_uVEqu_LGGTk",
+    authDomain: "nowy-41dd1.firebaseapp.com",
+    projectId: "nowy-41dd1",
+    storageBucket: "nowy-41dd1.appspot.com",
+    messagingSenderId: "265517409910",
+    appId: "1:265517409910:web:31b27cbe17dbc5e10c6157"
 })
 
+
+// noinspection UnnecessaryLocalVariableJS
 const firestore = firebaseApp//.firestore();
 
+
+// const firestore = firebaseApp//.firestore();
 export default firestore;
 
