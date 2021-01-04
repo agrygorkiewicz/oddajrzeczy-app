@@ -5,10 +5,6 @@ import "../../scss/Login.scss";
 // import HomeLoggedIn from "../../components/Loggedin/HomeLoggedIn";
 import NavHome from "../../components/Home/NavHome";
 import db from "firebase/app"
-// import db from "../firebase";
-// import '../firebase.js';
-
-// import 'firebase/auth';
 
 
 

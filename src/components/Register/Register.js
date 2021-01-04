@@ -1,7 +1,7 @@
 import "../../scss/Register.scss";
 import React, {useReducer, useState} from "react";
 import Decoration from "../../assets/Decoration.svg";
-import Nav from "../../components/Home/Nav";
+import NavHome from "../../components/Home/NavHome";
 import {Link} from "react-router-dom";
 import db from "firebase/app"
 
@@ -87,7 +87,7 @@ const Register = () => {
 
     return (
         <>
-        <Nav/>
+        <NavHome/>
         <section className="register-section">
             <div className="registration-box">
                 <h2>Załóż konto</h2>
