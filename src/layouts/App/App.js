@@ -4,7 +4,7 @@ import Home from "../../components/Home/Home";
 
 // import Register from "../../components/Register/Register";
 import Login2 from "../../components/Login/Login2";
-// noinspection ES6CheckImport
+
 import {BrowserRouter as Router, Route, Switch} from "react-router-dom";
 
 function App() {
