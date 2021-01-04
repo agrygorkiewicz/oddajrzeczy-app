@@ -2,7 +2,7 @@ import React from "react";
 import './App.scss';
 import Home from "../../components/Home/Home";
 
-// import Register from "../../components/Register/Register";
+import Register from "../../components/Register/Register";
 import Login2 from "../../components/Login/Login2";
 
 // noinspection ES6CheckImport
@@ -15,7 +15,7 @@ function App() {
                 <Switch>
                     <Route  path="/" exact component={Home}/>
                     <Route path="/login" component={Login2}/>
-                    {/*<Route path="/register" component={Register}/>*/}
+                    <Route path="/register" component={Register}/>
                 </Switch>
             </Router>
 

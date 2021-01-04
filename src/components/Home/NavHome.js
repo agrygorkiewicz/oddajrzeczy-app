@@ -3,9 +3,8 @@ import React from "react";
 // import AnchorLink from 'react-anchor-link-smooth-scroll';
 // import {Link} from "react-router-dom";
 import {Link} from 'react-scroll'
-
-
 import {Link as Link2} from "react-router-dom";
+
 
 const NavHome = () => {
     return (
@@ -16,9 +15,9 @@ const NavHome = () => {
                     <Link2 to="/login">
                         <p>Zaloguj</p>
                     </Link2>
-                    {/*<Link to="/register">*/}
+                    <Link2 to="/register">
                         <p >Załóż konto</p>
-                    {/*</Link>*/}
+                    </Link2>
                 </div>
                 <div className="navigation-home">
 
@@ -30,11 +29,15 @@ const NavHome = () => {
                             <li>
                                 <Link to="four-steps" smooth={true} duration={1000}> O co chodzi?</Link>
                             </li>
-
-
-                            {/*<li><AnchorLink href='#about'>O nas</AnchorLink></li>*/}
-                            {/*<li><AnchorLink href='#section-help'>Fundacja i organizacje</AnchorLink></li>*/}
-                            {/*<li><AnchorLink href="#contact">Kontakt</AnchorLink></li>*/}
+                            <li>
+                                <Link to="about" smooth={true} duration={1000}> O nas</Link>
+                            </li>
+                            <li>
+                                <Link to="section-help" smooth={true} duration={1000}> Fundacja i organizacje</Link>
+                            </li>
+                            <li>
+                                <Link to="contact" smooth={true} duration={1000}> Kontakt</Link>
+                            </li>
 
                         </ul>
                     </nav>
