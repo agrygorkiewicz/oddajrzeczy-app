@@ -1,6 +1,6 @@
 import './App.scss';
 import Home from "../../components/Home/Home";
-// noinspection ES6CheckImport
+
 import {BrowserRouter as Router, Route, Switch} from "react-router-dom";
 // import Nav from "../../components/Home/Nav";
 import React from "react";

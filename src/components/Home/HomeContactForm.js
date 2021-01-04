@@ -2,10 +2,12 @@ import "../../scss/HomeContactForm.scss";
 import React, {useState} from "react";
 import BackgroundContactForm from "../../assets/Background-Contact-Form.jpg";
 import Decoration from "../../assets/Decoration.svg";
-import '../firebase.js';
-import firestore from "firebase/app"
-import 'firebase/app';
-import 'firebase/database';
+// import db from "../firebase";
+import db from "firebase/app"
+// import '../firebase.js';
+// import firestore from "firebase/app"
+// import 'firebase/app';
+// import 'firebase/database';
 
 
 const HomeContactForm = () => {
@@ -37,7 +39,7 @@ const [notification, setNotification] = useState(null);
 
         } else if (!isError) {
 
-            firestore.firestore().collection("contacts").add({
+            db.firestore().collection("contacts").add({
                 name: name,
                 email: email,
                 message: message,
