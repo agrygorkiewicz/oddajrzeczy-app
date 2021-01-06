@@ -1,19 +1,18 @@
 @import "settings/colors";
 @import "settings/fonts";
 
-
+.main-page {
+  height: 680px;
+}
 .home-image {
-
-
-  //z-index: -1;
 
 
   img {
     position: relative;
-    width: 850px;
+    width: 870px;
     height: auto;
     left: -40%;
-    top:-100px;
+    top:-80px;
   }
 }
 
@@ -33,9 +32,11 @@
   text-align: center;
   left: -12%;
   top: -70px;
+
   h1 {
-    font-size: 28px;
+    font-size: 30px;
     font-weight: normal;
+    width: 530px;
   }
 
   img {
