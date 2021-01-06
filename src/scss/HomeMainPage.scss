@@ -5,14 +5,12 @@
   height: 680px;
 }
 .home-image {
-
-
   img {
     position: relative;
-    width: 870px;
+    width: 970px;
     height: auto;
-    left: -40%;
-    top:-80px;
+    left: -27%;
+    top:-130px;
   }
 }
 
@@ -20,9 +18,7 @@
   display: flex;
   justify-content: flex-end;
   align-items: center;
-  //top: -100px;
   position: relative;
-  //z-index: -1;
   padding: 20px;
 
 }
@@ -35,8 +31,10 @@
 
   h1 {
     font-size: 30px;
-    font-weight: normal;
-    width: 530px;
+    font-weight: bold;
+    width: 540px;
+    font-family: $fontOpen;
+    margin: 5px;
   }
 
   img {
@@ -48,17 +46,33 @@
   display: flex;
   text-align: center;
   justify-content: center;
+  text-decoration: none;
+  margin: 10px;
+  font-size: 26px;
+  font-weight: 300;
+  color: #3c3c3c;
+
   a {
     text-decoration: none;
-    max-width: 210px;
+    max-width: 220px;
   }
 
   p {
-    border: 2px solid $color4;
+    border: 1px solid $color4;
     margin: 15px;
     padding: 12px;
-    font-size: 25px;
+    font-size: 27px;
     color: $color5;
+    width: 210px;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
 
   }
+}
+.options-buttons p:hover {
+  transition: all 0.3s ease-in-out;
+  color: $color5;
+  border: 1px solid $color3;
 }

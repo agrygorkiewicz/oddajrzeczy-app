@@ -54,7 +54,7 @@ const HomeMainPage = () => {
                 <img alt="" src={Decoration}/>
                 <div className="options-buttons">
                     {/*<Link to="/logout">*/}
-                    <p>ODDAJ RZECZY</p>
+                    <p>ODDAJ <br/> RZECZY</p>
                     {/*</Link>*/}
                     {/*<Link to={"/login"}>*/}
                     <p>ZORGANIZUJ ZBIÓRKĘ</p>

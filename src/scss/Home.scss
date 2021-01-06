@@ -1,6 +1,8 @@
 @import "settings/colors";
 @import "settings/fonts";
+@import "./Nav.scss";
+@import "./HomeMainPage.scss";
 
- body {
-   //width: 100vw;
+body {
+color: $color5;
  }
