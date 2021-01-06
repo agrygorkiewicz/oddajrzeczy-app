@@ -15,23 +15,23 @@
   margin: 0 auto;
 
   h1 {
-    font-size: 30px;
-    font-weight: lighter;
+    font-size: 1.9em;
+    font-weight: 400;
   }
 }
 
 .about-us-text {
-  margin-top: 70px;
+  margin-top: 50px;
   justify-content: center;
   align-items: center;
 
   img {
-    padding: 20px;
+    width:11em;
 
   }
 
   p {
-    font-size: 18px;
+    font-size: 1.2em;
     line-height: 40px;
   }
 
@@ -39,10 +39,10 @@
 
 
 .signature-image {
-  width: 200px;
-  height: 140px;
-  margin-left: 40%;
-  margin-top: 5%;
+  width: 160px;
+  height: 100px;
+  margin-left: 65%;
+  //margin-top: 3%;
 
 }
 
