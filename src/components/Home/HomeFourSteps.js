@@ -19,22 +19,26 @@ const HomeFourSteps = () => {
                     <div className="step">
                         <img alt="" src={Icon1}/>
                         <h2>Wybierz rzeczy</h2>
-                        <p>ubrania, zabawki, sprzęt i inne</p>
+                        <hr/>
+                        <p>ubrania, zabawki, <br/>sprzęt i inne</p>
                     </div>
                     <div className="step">
                         <img alt="" src={Icon2}/>
                         <h2>Spakuj je</h2>
-                        <p>skorzystaj z worków na śmieci</p>
+                        <hr/>
+                        <p>skorzystaj z <br/> worków na śmieci</p>
                     </div>
                     <div className="step">
                         <img alt="" src={Icon3}/>
-                        <h2>Zdecyduj komu chcesz pomóc</h2>
-                        <p>wybierz zaufane miejsce</p>
+                        <h2>Zdecyduj komu <br/> chcesz pomóc</h2>
+                        <hr/>
+                        <p>wybierz zaufane <br/> miejsce</p>
                     </div>
                     <div className="step">
                         <img alt="" src={Icon4}/>
                         <h2>Zamów kuriera</h2>
-                        <p>kurier przyjedzie w dogodnym terminie</p>
+                        <hr/>
+                        <p>kurier przyjedzie <br/> w dogodnym terminie</p>
                     </div>
                 </div>
             </div>

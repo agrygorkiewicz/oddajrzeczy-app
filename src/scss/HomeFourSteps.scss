@@ -7,16 +7,20 @@
   margin: 20px;
 
   h1 {
-    font-weight: lighter;
+    font-weight: bold;
     font-family: $fontOpen;
     font-size: 30px;
   }
 
   img {
-    margin-top: 15px;
+    width: 11em;
   }
 }
+.step hr {
+  color: #070707;
+  width:70px;
 
+}
 .background-grey {
   background-color: #F0F1F1;
 }
@@ -37,20 +41,22 @@
   padding: 25px;
 
   h2 {
-    font-weight: lighter;
-    font-size: 18px;
-    padding: 10px;
+    //font-weight: bolder;
+    font-size: 1em;
+    padding: 7px;
+    margin:5px;
   }
 
   p {
-    font-size: 16px;
+    font-size: 0.9em;
+    font-weight: bold;
   }
 }
 
 .step {
   img {
-    width: 83px;
-    height: 83px;
+    width: 75px;
+    height: 75px;
 
   }
 }
