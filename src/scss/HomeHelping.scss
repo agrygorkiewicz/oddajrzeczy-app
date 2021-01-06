@@ -7,18 +7,19 @@
   text-align: center;
 
   h1 {
-    margin-top: 35px;
+    margin-top: 45px;
+    margin-bottom: 3px;
     text-align: center;
     font-family: $fontOpen;
-    font-weight: lighter;
-    font-size: 32px;
+    font-weight: normal;
+    font-size: 28px;
     //padding: 12px;
 
   }
 
   img {
-    width: 210px;
-    height: 70px;
+    width: 180px;
+    height: 60px;
   }
 }
 
@@ -26,15 +27,17 @@
   display: flex;
   text-align: center;
   justify-content: center;
-  margin : 10px;
+  margin: 10px;
 
   button {
-    padding: 10px;
-    margin-bottom: 12px;
+    padding: 8px;
+    //margin-bottom: 12px;
+    margin: 1em;
     font-family: $fontOpen;
-    border: none;
-background-color: unset;
-    font-size: 16px;
+    background-color: unset;
+    font-size: 17px;
+    border: 1px solid transparent;
+
   }
 
   button:hover {

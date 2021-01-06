@@ -17,7 +17,7 @@
 
   img {
     width: 98vw;
-    height: 100vh;
+    height: 95vh;
   }
 }
 
@@ -101,4 +101,22 @@
 .btn-dark {
   background: unset;
   padding: 10px;
+}
+
+.footer {
+  margin-top: -4%;
+  top: 30%;
+  display: flex;
+  p {
+    text-align: center;
+    margin: 25px 670px 20px 670px;
+  }
+}
+
+
+.footer-icons {
+margin-left: 55px;
+  img {
+    margin: 10px;
+  }
 }

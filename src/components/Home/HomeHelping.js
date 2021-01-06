@@ -37,8 +37,8 @@ const HomeHelping = () => {
             </div>
             <div className="help-examples">
                 <button onClick={toggleFoundationSectionVisable} >Fundacjom</button>
-                <button onClick={toggleOrganizationSectionVisable}>Organizacjom pozarządowym</button>
-                <button onClick={toggleCollectionSectionVisable}>Lokalnym zbiórkom</button>
+                <button onClick={toggleOrganizationSectionVisable}>Organizacjom <br/> pozarządowym</button>
+                <button onClick={toggleCollectionSectionVisable}>Lokalnym <br/> zbiórkom</button>
             </div>
 
             {foundationSectionVisable && <HomeFoundation/>}

@@ -2,12 +2,9 @@ import "../../scss/HomeContactForm.scss";
 import React, {useState} from "react";
 import BackgroundContactForm from "../../assets/Background-Contact-Form.jpg";
 import Decoration from "../../assets/Decoration.svg";
-// import db from "../firebase";
 import db from "firebase/app"
-// import '../firebase.js';
-// import firestore from "firebase/app"
-// import 'firebase/app';
-// import 'firebase/database';
+import Facebook from "../../assets/Facebook.svg";
+import Instagram from "../../assets/Instagram.svg";
 
 
 const HomeContactForm = () => {
@@ -17,7 +14,7 @@ const HomeContactForm = () => {
     const [nameError, setNameError] = useState(null);
     const [emailError, setEmailError] = useState(null);
     const [messageError, setMessageError] = useState(null);
-const [notification, setNotification] = useState(null);
+    const [notification, setNotification] = useState(null);
 
     const handleSubmit = (e) => {
         let isError = false
@@ -66,7 +63,8 @@ const [notification, setNotification] = useState(null);
                     <div className="form-title">
                         <h1>Skontaktuj się z nami</h1>
                         <img alt="" src={Decoration}/>
-                        {notification && <p style={{color: "green", marginBottom:"30px", fontWeight: "bold"}}>{notification}</p>}
+                        {notification &&
+                        <p style={{color: "green", marginBottom: "30px", fontWeight: "bold"}}>{notification}</p>}
                     </div>
                     <div className="name-email-input">
                         <div className="form-group">
@@ -97,12 +95,18 @@ const [notification, setNotification] = useState(null);
                                   className="form-input"> </textarea>
                         {messageError && <p style={{color: "tomato"}}>{messageError}</p>}
                     </div>
-
                     <button className="btn btn-dark">Wyślij</button>
 
-                </form>
-
+                   </form>
+                <div className="footer">
+                    <p>Copyright by CodersLab</p>
+                    <div className="footer-icons">
+                        <img alt="" src={Facebook}/>
+                        <img alt="" src={Instagram}/>
+                    </div>
+                </div>
             </section>
+
         </>
     )
 }
