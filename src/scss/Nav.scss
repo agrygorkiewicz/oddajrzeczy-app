@@ -27,32 +27,39 @@
 }
 
 
+.navigation {
+  nav ul {
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 80px;
 
-nav ul {
-  display: flex;
-  justify-content: flex-end;
-  margin-right: 80px;
-a {
-  text-decoration: none;
-}
-  li {
-    list-style: none;
-    font-size: 14px;
-    margin: 4px;
-    text-decoration: none;
-    color: $color5;
-    padding: 6px;
     a {
       text-decoration: none;
-      margin: 5px;
-      color: $color5;
-      padding: 6px;
-
     }
+
+    li {
+      font-size: 14px;
+      margin: 5px;
+      text-decoration: none;
+      color: $color5;
+      padding: 7px;
+      list-style: none;
+      border: 1px solid transparent;
+      a {
+        text-decoration: none;
+        margin: 5px;
+        color: $color5;
+        padding: 5px;
+        font-family: $fontOpen;
+        font-weight: bold;
+
+      }
+    }
+  }
+  li:hover {
+    border: 1px solid $color5;
+    cursor: pointer;
   }
 }
 
-li:first-child {
-  border: 1px solid $color5;
-}
 

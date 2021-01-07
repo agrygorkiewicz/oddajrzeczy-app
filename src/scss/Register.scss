@@ -5,8 +5,10 @@
   //height: 100vh;
 
   h2 {
-    padding: 8px;
     font-family: $fontOpen;
+    padding: 6px;
+    margin-bottom: 16px;
+    margin-top: 2px;
   }
 }
 
@@ -15,20 +17,19 @@
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  margin: 50px;
+  margin: 37px;
   height: 55%;
 
   h2 {
     font-weight: lighter;
     font-size: 26px;
 
+
   }
 
   img {
-    width: 180px;
+    width: 160px;
     height: auto;
-    padding: 10px;
-    margin-bottom: 20px;
   }
 }
 
@@ -80,5 +81,9 @@
   }
   button:nth-child(2) {
     border: 1px solid black;
+  }
+  button:hover {
+    cursor: pointer;
+
   }
 }

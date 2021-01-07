@@ -91,13 +91,13 @@ const Register = () => {
         <section className="register-section">
             <div className="registration-box">
                 <h2>Załóż konto</h2>
-                {error && <p style={{color: "tomato", fontSize:"18px", padding:"10px"}}>{error}</p>}
                 <img alt="" src={Decoration}/>
+                {error && <p style={{color: "tomato", fontSize:"18px", padding:"5px"}}>{error}</p>}
                 <div className="registration-form">
                     <div className="register-section-inputs">
                         <div className="register-input">
                             <label htmlFor="email-input">Email</label>
-                            <input placeholder="Email"
+                            <input
                                    id="email-input"
                                    type="email"
                                    name="email"
@@ -109,7 +109,7 @@ const Register = () => {
 
                         <div className="register-input">
                             <label htmlFor="password-input" className="inputName">Hasło</label>
-                            <input placeholder="********"
+                            <input
                                    type="password"
                                    name="password"
                                    id="password-input"
@@ -119,7 +119,7 @@ const Register = () => {
                         </div>
                         <div className="register-input">
                             <label htmlFor="password-input" className="inputName">Powtórz hasło</label>
-                            <input placeholder="********"
+                            <input
                                    type="password"
                                    name="passwordRep"
                                    id="passwordRep"
