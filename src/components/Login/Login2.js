@@ -1,11 +1,10 @@
 import React, {useReducer, useState} from "react";
 import Decoration from "../../assets/Decoration.svg";
 import "../../scss/Login.scss";
-// import {Link} from "react-router-dom";
+import {Link} from "react-router-dom";
 // import HomeLoggedIn from "../../components/Loggedin/HomeLoggedIn";
 import Nav from "../../components/Home/Nav";
 import db from "firebase/app"
-
 
 
 const Login2 = () => {
@@ -18,9 +17,9 @@ const Login2 = () => {
             return "Podany email jest nieprawidłowy"
         }
 
-        if  (!password) {
+        if (!password) {
             return "Hasło jest wymagane";
-        } else if (password.length < 5){
+        } else if (password.length < 5) {
             return "Podane hasło jest za krótkie";
         }
         return null
@@ -32,13 +31,13 @@ const Login2 = () => {
 
 
     const [inputsContent, setInputsContent] = useReducer(
-        (state, newState) => ({ ...state, ...newState }),
+        (state, newState) => ({...state, ...newState}),
         {
             email: "",
             password: ""
         }
     );
-    const { email, password } = inputsContent;
+    const {email, password} = inputsContent;
 
     const handleInputChange = e => {
         setInputsContent({
@@ -70,58 +69,53 @@ const Login2 = () => {
                 <div className="login-box">
                     <h2>Zaloguj się</h2>
                     <img alt="" src={Decoration}/>
-                    {error && <p style={{color: "tomato", fontSize:"18px", padding:"10px"}}>{error}</p>}
+                    {error && <p style={{color: "tomato", fontSize: "18px", padding: "10px"}}>{error}</p>}
                     <div className="login-form">
                         <div className="section-inputs">
                             <form>
-                            <div className="login-input">
+                                <div className="login-input">
 
-                                <label htmlFor="email-input">Email</label>
-                                <input
-                                    id="email-input"
-                                    type="email"
-                                    name="email"
-                                    required
-                                    onChange={handleInputChange}
-                                    value={email}
-                                    autoComplete="email"
-                               />
+                                    <label htmlFor="email-input">Email</label>
+                                    <input
+                                        id="email-input"
+                                        type="email"
+                                        name="email"
+                                        required
+                                        onChange={handleInputChange}
+                                        value={email}
+                                        autoComplete="email"
+                                    />
 
-                            </div>
-                            <div className="login-input">
-                                <label htmlFor="password-input" className="inputName">Hasło</label>
-                                <input
-                                    type="password"
-                                    name="password"
-                                    id="password-input"
-                                    required
-                                    onChange={handleInputChange}
-                                    value={password}
-                                autoComplete="current-password"/>
-
-
-                            </div>
+                                </div>
+                                <div className="login-input">
+                                    <label htmlFor="password-input" className="inputName">Hasło</label>
+                                    <input
+                                        type="password"
+                                        name="password"
+                                        id="password-input"
+                                        required
+                                        onChange={handleInputChange}
+                                        value={password}
+                                        autoComplete="current-password"/>
+                                </div>
                             </form>
                         </div>
                     </div>
                 </div>
 
                 <div className="login-button">
-
-
                     <button
                         type="submit"
                         name="submit"
                         value="1"
-                        onClick={handleSignIn}
-                    >
+                        onClick={handleSignIn}>
                         zaloguj się
                     </button>
-                    {/*<Link to="/register">*/}
+                    <Link to="/register">
                         <button>
                             załóż konto
                         </button>
-                    {/*</Link>*/}
+                    </Link>
                 </div>
             </section>
         </>
