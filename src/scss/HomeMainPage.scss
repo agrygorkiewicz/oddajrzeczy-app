@@ -47,23 +47,25 @@
   text-align: center;
   justify-content: center;
   text-decoration: none;
-  margin: 10px;
+  margin: 5px;
   font-size: 26px;
   font-weight: 300;
   color: #3c3c3c;
 
+
   a {
     text-decoration: none;
-    max-width: 220px;
+    max-width: 250px;
+    margin:10px;
   }
 
   p {
-    border: 1px solid $color4;
-    margin: 15px;
-    padding: 12px;
+    border: 1px solid #737373;
+    //margin: 10px;
+    padding: 10px;
     font-size: 27px;
-    color: $color5;
-    width: 210px;
+    color: #3c3c3c;
+    width: 230px;
     display: flex;
     text-align: center;
     align-items: center;

@@ -53,12 +53,12 @@ const HomeMainPage = () => {
                 <h1>Oddaj niechciane rzeczy w zaufane ręce</h1>
                 <img alt="" src={Decoration}/>
                 <div className="options-buttons">
-                    <Link to="/login">
+                    <Link2 to="/login">
                     <p>ODDAJ <br/> RZECZY</p>
-                    </Link>
-                    <Link to="/login">
+                    </Link2>
+                    <Link2 to="/login">
                     <p>ZORGANIZUJ ZBIÓRKĘ</p>
-                    </Link>
+                    </Link2>
 
                 </div>
             </div>
