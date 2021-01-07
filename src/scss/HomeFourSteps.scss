@@ -61,22 +61,39 @@
   }
 }
 
+
 .button-give {
   display: flex;
   text-align: center;
   justify-content: center;
-  padding: 40px;
+  text-decoration: none;
+  margin: 5px;
+  font-size: 26px;
+  font-weight: 300;
+  color: #3c3c3c;
+
 
   a {
     text-decoration: none;
+    max-width: 250px;
+    margin:10px;
   }
+
   p {
-    border: 2px solid $color4;
-    margin: 15px;
-    padding: 12px;
-    font-size: 25px;
-    color: $color5;
-    text-decoration: none;
+    border: 1px solid #737373;
+    padding: 10px;
+    font-size: 27px;
+    color: #3c3c3c;
+    width: 230px;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
 
   }
+}
+.button-give p:hover {
+  transition: all 0.3s ease-in-out;
+  color: $color5;
+  border: 1px solid $color3;
 }

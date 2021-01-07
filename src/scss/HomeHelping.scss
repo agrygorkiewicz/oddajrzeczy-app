@@ -11,9 +11,9 @@
     margin-bottom: 3px;
     text-align: center;
     font-family: $fontOpen;
-    font-weight: normal;
+    font-weight: bold;
     font-size: 28px;
-    //padding: 12px;
+
 
   }
 
@@ -27,16 +27,16 @@
   display: flex;
   text-align: center;
   justify-content: center;
-  margin: 10px;
+
 
   button {
     padding: 8px;
-    //margin-bottom: 12px;
-    margin: 1em;
+    margin: 0.5em 1.8em 0.5em 1.8em;
     font-family: $fontOpen;
     background-color: unset;
     font-size: 17px;
     border: 1px solid transparent;
+    font-weight: bold;
 
   }
 
