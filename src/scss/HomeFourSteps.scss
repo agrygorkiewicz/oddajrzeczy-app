@@ -3,13 +3,13 @@
 
 .section-steps-title {
   text-align: center;
-  padding: 20px;
-  margin: 20px;
+  padding: 1.25em;
+  margin: 1.25em;
 
   h1 {
     font-weight: bold;
     font-family: $fontOpen;
-    font-size: 30px;
+    font-size: 1.875em;
   }
 
   img {
@@ -18,7 +18,7 @@
 }
 .step hr {
   color: #070707;
-  width:70px;
+  width:4.375em;
 
 }
 .background-grey {
@@ -29,7 +29,7 @@
   display: flex;
   text-align: center;
   justify-content: space-around;
-  padding: 20px;
+  padding: 1.250em;
   width: 75%;
   margin: 0 auto;
 
@@ -38,13 +38,13 @@
 .step {
   font-family: $fontOpen;
   font-weight: lighter;
-  padding: 25px;
+  padding: 1.563em;
 
   h2 {
     //font-weight: bolder;
     font-size: 1em;
-    padding: 7px;
-    margin:5px;
+    padding: 0.438em;
+    margin:0.313em;
   }
 
   p {
@@ -55,8 +55,8 @@
 
 .step {
   img {
-    width: 75px;
-    height: 75px;
+    width: 4.688em;
+    height: 4.688em;
 
   }
 }
@@ -67,24 +67,24 @@
   text-align: center;
   justify-content: center;
   text-decoration: none;
-  margin: 5px;
-  font-size: 26px;
+  margin: 0.375em;
+  font-size: 1.625em;
   font-weight: 300;
   color: #3c3c3c;
 
 
   a {
     text-decoration: none;
-    max-width: 250px;
-    margin:10px;
+    max-width: 15.625em;
+    margin:0.625em;
   }
 
   p {
     border: 1px solid #737373;
-    padding: 10px;
-    font-size: 27px;
+    padding: 0.625em;
+    font-size: 1em;
     color: #3c3c3c;
-    width: 230px;
+    width: 7.75em;
     display: flex;
     text-align: center;
     align-items: center;

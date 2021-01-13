@@ -7,7 +7,7 @@ footer {
   justify-content: center;
   position: relative;
   z-index: -1;
-  bottom: 40px;
+  bottom: 2.5em;
 
 }
 
@@ -15,13 +15,12 @@ footer {
   display: flex;
   position: absolute;
   left: 85%;
-  //top: -10px;
 
   img {
     flex-direction: row;
     justify-content: end;
     align-items: end;
-    margin: 10px;
+    margin: 0.625em;
   }
 
 }

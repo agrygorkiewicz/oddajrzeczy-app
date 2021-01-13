@@ -27,20 +27,20 @@
   justify-content: space-between;
 
   input {
-    width: 200px;
-    margin-right: 10px;
-    height: 25px;
+    width: 12.5em;
+    margin-right: 0.625em;
+    height: 1.563em;
 
   }
 }
 
 .contact-form {
-  height: 350px;
+  height: 21.875em;
   align-items: end;
-  padding: 50px 0;
+  padding: 3.125em 0;
   position: absolute;
   left: 65%;
-  top: -620px;
+  top: -38.75em;
 
 
 }
@@ -49,26 +49,26 @@
   text-align: center;
 
   h1 {
-    margin: 15px;
+    margin: 0.938em;
     font-weight: lighter;
     color: black;
-    font-size: 27px;
+    font-size: 1.688em;
 
   }
 
   img {
-    width: 180px;
+    width: 11.25em;
     height: auto;
-    margin-bottom: 45px;
+    margin-bottom: 2.813em;
   }
 }
 
 
 .contact-form form {
   background: #fff;
-  padding: 35px 10px;
+  padding: 2.188em 0.625em;
   width: 70%;
-  margin: 50px auto;
+  margin: 3.125em auto;
   font-size: 0.9em;
   opacity: 1;
 
@@ -77,10 +77,10 @@
 .form-group {
   display: flex;
   flex-direction: column;
-  margin-bottom: 30px;
+  margin-bottom: 1.875em;
 
   label {
-    margin-bottom: 15px;
+    margin-bottom: 0.938em;
     font-family: $fontOpen;
 
 
@@ -100,7 +100,7 @@
 }
 .btn-dark {
   background: unset;
-  padding: 10px;
+  padding: 0.625em;
 }
 
 .footer {
@@ -109,14 +109,14 @@
   display: flex;
   p {
     text-align: center;
-    margin: 25px 670px 20px 670px;
+    margin: 1.563em 41.875em 1.250em 41.875em;
   }
 }
 
 
 .footer-icons {
-margin-left: 55px;
+margin-left: 3.438em;
   img {
-    margin: 10px;
+    margin: 0.625em;
   }
 }

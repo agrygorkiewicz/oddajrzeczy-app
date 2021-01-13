@@ -92,7 +92,7 @@ const Register = () => {
             <div className="registration-box">
                 <h2>Załóż konto</h2>
                 <img alt="" src={Decoration}/>
-                {error && <p style={{color: "tomato", fontSize:"18px", padding:"5px"}}>{error}</p>}
+                {error && <p style={{color: "#ff6347", fontSize:"18px", padding:"5px"}}>{error}</p>}
                 <div className="registration-form">
                     <div className="register-section-inputs">
                         <div className="register-input">

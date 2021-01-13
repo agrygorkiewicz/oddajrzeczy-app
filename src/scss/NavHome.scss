@@ -5,22 +5,22 @@
   font-family: $fontOpen;
   display: flex;
   justify-content: flex-end;
-  margin-right: 80px;
-  margin-top: 7px;
+  margin-right: 5em;
+  margin-top: 0.438em;
   position: relative;
 
 
   a  {
-    margin: 10px;
-    font-size: 13px;
+    margin: 0.625em;
+    font-size: 0.813em;
     color: $color4;
     text-decoration: none;
-    padding: 10px;
-    border: 1px solid transparent;
+    padding: 0.625em;
+    border: 0.063em solid transparent;
 
   }  a:hover {
-       border: 1px solid $color3;
-       padding: 10px;
+       border: 0.063em solid $color3;
+       padding: 0.625em;
        text-decoration: none;
 
      }
@@ -31,25 +31,25 @@
   nav ul {
     display: flex;
     justify-content: flex-end;
-    margin-right: 80px;
+    margin-right: 5em;
 
     a {
       text-decoration: none;
     }
 
     li {
-      font-size: 14px;
-      margin: 5px;
+      font-size: 0.875em;
+      margin: 0.313em;
       text-decoration: none;
       color: $color5;
-      padding: 7px;
+      padding: 0.438em;
       list-style: none;
-      border: 1px solid transparent;
+      border: 0.063em solid transparent;
       a {
         text-decoration: none;
-        margin: 5px;
+        margin: 0.313em;
         color: $color5;
-        padding: 6px;
+        padding: 0.375em;
         font-family: $fontOpen;
         font-weight: bold;
 
@@ -58,7 +58,7 @@
   }
 
   li:hover {
-    border: 1px solid $color5;
+    border: 0.063em solid $color5;
     cursor: pointer;
   }
 }

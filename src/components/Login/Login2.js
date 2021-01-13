@@ -69,7 +69,7 @@ const Login2 = () => {
                 <div className="login-box">
                     <h2>Zaloguj się</h2>
                     <img alt="" src={Decoration}/>
-                    {error && <p style={{color: "tomato", fontSize: "18px", padding: "10px"}}>{error}</p>}
+                    {error && <p style={{color: "#ff6347", fontSize: "18px", padding: "10px"}}>{error}</p>}
                     <div className="login-form">
                         <div className="section-inputs">
                             <form>

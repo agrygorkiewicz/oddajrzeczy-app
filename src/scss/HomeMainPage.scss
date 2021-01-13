@@ -2,15 +2,15 @@
 @import "settings/fonts";
 
 .main-page {
-  height: 680px;
+  height: 42.5em;
 }
 .home-image {
   img {
     position: relative;
-    width: 970px;
+    width: 60.625em;
     height: auto;
     left: -27%;
-    top:-130px;
+    top:-7.8em;
   }
 }
 
@@ -19,7 +19,7 @@
   justify-content: flex-end;
   align-items: center;
   position: relative;
-  padding: 20px;
+  padding: 1.25em;
 
 }
 
@@ -27,18 +27,18 @@
   position: relative;
   text-align: center;
   left: -12%;
-  top: -70px;
+  top: -4.375em;
 
   h1 {
-    font-size: 30px;
+    font-size: 1.875em;
     font-weight: bold;
-    width: 540px;
+    width: 18em;
     font-family: $fontOpen;
-    margin: 5px;
+    margin: 0.313em;
   }
 
   img {
-    padding: 14px;
+    padding: 0.875em;
   }
 }
 
@@ -47,25 +47,25 @@
   text-align: center;
   justify-content: center;
   text-decoration: none;
-  margin: 5px;
-  font-size: 26px;
+  margin: 0.313em;
+  font-size: 1.625em;
   font-weight: 300;
   color: #3c3c3c;
 
 
   a {
     text-decoration: none;
-    max-width: 250px;
-    margin:10px;
+    max-width: 15.625em;
+    margin:0.3em;
   }
 
   p {
     border: 1px solid #737373;
     //margin: 10px;
-    padding: 10px;
-    font-size: 27px;
+    padding: 0.4em;
+    font-size: 1.1em;
     color: #3c3c3c;
-    width: 230px;
+    width: 8em;
     display: flex;
     text-align: center;
     align-items: center;
@@ -76,5 +76,5 @@
 .options-buttons p:hover {
   transition: all 0.3s ease-in-out;
   color: $color5;
-  border: 1px solid $color3;
+  border: 0.02em solid $color3;
 }

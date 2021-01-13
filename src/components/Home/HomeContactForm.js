@@ -70,7 +70,7 @@ const HomeContactForm = () => {
                         <div className="form-group">
                             <label className="inputName">Wpisz swoje imię</label>
                             <input style={{
-                                borderBottom: nameError ? "1px solid tomato" : "1px solid black",
+                                borderBottom: nameError ? "1px solid #ff6347" : "1px solid black",
                             }} onChange={(e) => setName(e.target.value)} value={name} type="text" className="form-input"
                             />
                             {nameError && <p style={{color: "tomato"}}>{nameError}</p>}
@@ -78,7 +78,7 @@ const HomeContactForm = () => {
                         <div className="form-group">
                             <label className="inputName">Wpis swój email</label>
                             <input style={{
-                                borderBottom: emailError ? "1px solid tomato" : "1px solid black",
+                                borderBottom: emailError ? "1px solid #ff6347" : "1px solid black",
                             }} onChange={(e) => setEmail(e.target.value)} value={email} type="text"
                                    className="form-input"
                             />
@@ -90,10 +90,10 @@ const HomeContactForm = () => {
                     <div className="form-group">
                         <label className="inputName">Wpisz swoją wiadomość</label>
                         <textarea style={{
-                            borderBottom: messageError ? "1px solid tomato" : "1px solid black",
+                            borderBottom: messageError ? "1px solid #ff6347" : "1px solid black",
                         }} onChange={(e) => setMessage(e.target.value)} value={message}
                                   className="form-input"> </textarea>
-                        {messageError && <p style={{color: "tomato"}}>{messageError}</p>}
+                        {messageError && <p style={{color: "#ff6347"}}>{messageError}</p>}
                     </div>
                     <button className="btn btn-dark">Wyślij</button>
 
