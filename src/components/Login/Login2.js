@@ -4,7 +4,7 @@ import "../../scss/Login.scss";
 import {Link} from "react-router-dom";
 // import HomeLoggedIn from "../../components/Loggedin/HomeLoggedIn";
 import Nav from "../../components/Home/Nav";
-import db from "firebase/app"
+import db from "../firebase"
 
 
 const Login2 = () => {

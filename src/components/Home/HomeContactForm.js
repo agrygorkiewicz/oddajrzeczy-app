@@ -2,9 +2,11 @@ import "../../scss/HomeContactForm.scss";
 import React, {useState} from "react";
 import BackgroundContactForm from "../../assets/Background-Contact-Form.jpg";
 import Decoration from "../../assets/Decoration.svg";
-import db from "firebase/app"
+
 import Facebook from "../../assets/Facebook.svg";
 import Instagram from "../../assets/Instagram.svg";
+import db from "../firebase"
+// require('firebase/database')
 
 
 const HomeContactForm = () => {

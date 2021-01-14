@@ -2,8 +2,13 @@ import "../../scss/Register.scss";
 import React, {useReducer, useState} from "react";
 import Decoration from "../../assets/Decoration.svg";
 import Nav from "../../components/Home/Nav";
-import db from "firebase/app"
 import {Link as Link2} from "react-router-dom";
+
+import db from "../firebase"
+// import {db} from "../firebase";
+
+
+
 
 const Register = () => {
     const [error, setError] = useState([]);
@@ -75,7 +80,8 @@ const Register = () => {
             console.log("błąd");
             return
         }
-        db.auth()
+        db
+            .auth()
             .createUserWithEmailAndPassword(email, password)
             .catch(error =>
                 alert(`Konto z tym adresem już istnieje, zaloguj się lub użyj innego adresu email, ${error}`)
