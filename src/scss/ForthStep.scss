@@ -1,0 +1,74 @@
+@import "settings/colors";
+@import "settings/fonts";
+
+.four-parts {
+  h3 {
+    font-size: 25px;
+    margin-left: 10%;
+    margin-top: 16px;
+  }
+  p {
+    margin-left: 8%;
+  }
+}
+
+
+.forth-step-form {
+display: flex;
+  margin-top : 35px;
+  margin-left: 10%;
+
+}
+
+
+
+.address-input {
+  display: flex;
+  flex-direction: row;
+  margin-top: 12px;
+  label {
+    width: 35%;
+  }
+  input {
+     height: 30px;
+    background-color: unset;
+  }
+}
+
+.address-box {
+  display: flex;
+  flex-direction: column;
+  h4 {
+    margin-bottom: 10px;
+    font-weight: lighter;
+  }
+}
+
+
+.date-box {
+  margin-left: 7%;
+  h4 {
+    margin-bottom: 10px;
+    font-weight: lighter;
+  }
+}
+
+.date-input {
+  display: flex;
+  flex-direction: row;
+  margin-top: 12px;
+  label {
+    width: 35%;
+  }
+  input {
+    height: 30px;
+    background-color: unset;
+  }
+  textarea {
+    background-color: unset;
+  }
+}
+
+.fourth-step-button {
+  margin-top: 15%;
+}

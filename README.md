@@ -1,12 +1,22 @@
 # Oddaj Rzeczy
 
-An App build with react. It is a tool to give your staff away to others. 
-In only few steps you can help those in need by giving things you do not need anymore.  
+An App build with react. 
+  
+### Table of contents
+* [General Info](https://github.com/agrygorkiewicz/oddajrzeczy-app#general-info) 
+* [Screenshots](https://github.com/agrygorkiewicz/oddajrzeczy-app#screenshots)
 
+* [Setup](https://github.com/agrygorkiewicz/oddajrzeczy-app#setup)  
+* [Usage](https://github.com/agrygorkiewicz/oddajrzeczy-app#usage)
+## General info
+Oddaj Rzeczy offers a tool to give your staff away to others. 
+In only few steps you can help those in need by giving things you do not need anymore.
+## Screenshots
+![Alt text](../oddajrzeczyapp/src/assets/screenshot.png "Home Page")
+
+![Alt text](../oddajrzeczyapp/src/assets/Screenshot2.PNG "First Step")
 ## Setup
 To run this application you will need Node.js and Git installed on your computer
-
-## General info
 
 Use commands below: 
 ``````

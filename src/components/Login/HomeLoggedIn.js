@@ -6,7 +6,7 @@ import Decoration from "../../assets/Decoration.svg";
 import HomeContactForm from "../Home/HomeContactForm";
 import  "../../scss/HomeLoggenIn.scss";
 import {Link as Link2} from "react-router-dom";
-// import ForthStep from "./ForthStep";
+import FirstStep from "../Login/FirstStep";
 // import Logout from "../Logout/Logout";
 // import Summary from "./Summary";
 // import FirstStep from "./FirstStep";
@@ -115,7 +115,7 @@ const HomeLoggedIn = () => {
                 </div>
             </section>
             <section className="four-parts">
-                {/*<FirstStep/>*/}
+                <FirstStep/>
 
             </section>
             <HomeContactForm/>
