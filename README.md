@@ -13,7 +13,7 @@ In only few steps you can help those in need by giving things you do not need an
 ## Screenshots
 ![Alt text](https://github.com/agrygorkiewicz/oddajrzeczy-app/blob/master/src/assets/screenshot.png "Home Page")
 
-![Alt text](../oddajrzeczyapp/src/assets/Screenshot2.PNG "First Step")
+![Alt text](https://github.com/agrygorkiewicz/oddajrzeczy-app/blob/master/src/assets/Screenshot2.PNG "First Step")
 ## Setup
 To run this application you will need Node.js and Git installed on your computer
 
