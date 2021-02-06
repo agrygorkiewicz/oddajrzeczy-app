@@ -1,0 +1,60 @@
+@import "settings/colors";
+@import "settings/fonts";
+
+
+.second-step-form {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+
+  select {
+    background-color: unset;
+    width: 200px;
+    height: 40px;
+    text-align: end;
+
+    option {
+      background-color: #e8e9e4;
+      overflow: hidden;
+
+    }
+  }
+  p {
+      margin-left: 140px;
+    margin-right: 15px;
+    }
+}
+
+.h-title {
+  h3 {
+    margin-left: 140px;
+    margin-top: 65px;
+    margin-bottom: 40px;
+    font-size: 30px;
+  }
+}
+
+.two-out-of-four {
+  p {
+    padding-top: 26px;
+    margin-left: 144px;
+  }
+}
+
+
+.second-step-button {
+  button {
+    width: 135px;
+    height: 55px;
+    border: 1px solid $color5;
+    background-color: unset;
+    font-family: $fontOpen;
+    font-size: 15px;
+    margin-left: 140px;
+    padding: 10px;
+    margin-top: 343px;
+  }
+  button:nth-child(2) {
+    margin-left: 40px;
+  }
+}

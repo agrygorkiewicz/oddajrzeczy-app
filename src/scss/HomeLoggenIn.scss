@@ -42,7 +42,6 @@
     display: flex;
     justify-content: flex-end;
     margin-right: 5em;
-
     a {
       text-decoration: none;
     }
@@ -62,16 +61,21 @@
         padding: 0.313em;
         font-family: $fontOpen;
         font-weight: bold;
-
+        :hover {
+            border: 0.063em solid $color5;
+            cursor: pointer;
+          }
       }
     }
   }
+
+
+.nav-ul  {
   li:hover {
     border: 0.063em solid $color5;
     cursor: pointer;
   }
-
-
+}
 // main page
 
 .home-cardigan-image {
@@ -152,7 +156,6 @@ left: 1.75em;
 }
 
 .square {
-  //padding:15px;
   margin: 0.9375em;
 }
 

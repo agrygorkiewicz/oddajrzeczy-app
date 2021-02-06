@@ -1,0 +1,139 @@
+@import "settings/colors";
+@import "settings/fonts";
+
+
+.third-step-form {
+  display: flex;
+  flex-direction: column;
+  //align-items: center;
+  margin-left: 9.5%;
+  margin-top: 20px;
+
+  select {
+    background-color: unset;
+    width: 200px;
+    height: 40px;
+    text-align: end;
+
+    option {
+      background-color: #e8e9e4;
+
+    }
+  }
+
+  h3 {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 12px;
+
+  }
+}
+
+.check-span {
+  padding: 12px;
+  border: 1px solid black;
+
+}
+
+.checkbox-span {
+  padding: 10px;
+  margin-left: 8.5%;
+
+
+  h4 {
+    padding: 13px;
+    font-size: 18px;
+    margin-bottom: 10px;
+  }
+}
+
+
+.organization-input {
+  margin-left: 8.5%;
+  display: flex;
+  flex-direction: column;
+  padding: 17px;
+
+  input {
+    width: 40%;
+    margin-top: 10px;
+    height: 25px;
+    background-color: unset;
+  }
+
+  label {
+    font-size: 18px;
+    font-weight: bold;
+
+  }
+}
+
+.third-step-button {
+  margin-top: 54px;
+  margin-left: 140px;
+
+  button {
+    width: 135px;
+    height: 55px;
+    border: 1px solid $color5;
+    background-color: unset;
+    font-family: $fontOpen;
+    font-size: 15px;
+    padding: 10px;
+    margin-top: 20px;
+  }
+
+  button:nth-child(2) {
+    margin-left: 40px;
+  }
+}
+
+.three-out-of-four {
+  p {
+    margin-left: 144px;
+    padding-top: 26px;
+  }
+}
+
+
+ul {
+  padding: 0;
+  margin: 0;
+  clear: both;
+}
+
+li {
+  list-style-type: none;
+  list-style-position: outside;
+  padding: 8px;
+  display: inline-block;
+  flex-wrap: wrap;
+
+
+}
+
+input[type="checkbox"]:not(:checked),
+input[type="checkbox"]:checked {
+  position: absolute;
+  left: -9999%;
+  transition: all .2s;
+
+}
+
+input[type="checkbox"] + label {
+  display: inline-block;
+  padding: 10px 17px 10px 17px;
+  cursor: pointer;
+  border: 1px solid black;
+  color: black;
+  background-color: unset;
+  margin-bottom: 8px;
+
+}
+
+input[type="checkbox"]:checked + label {
+  border: 1px solid #000000;
+  color: #000000;
+  background-color: #FAD648;
+  transition: all .2s;
+}

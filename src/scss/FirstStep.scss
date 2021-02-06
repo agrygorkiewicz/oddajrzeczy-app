@@ -2,40 +2,35 @@
 @import "settings/fonts";
 
 
-
 .four-parts {
   background-image: url("../assets/Background-Form.jpg");
   //background-position:center;
   background-size: cover;
   width: auto;
   height: 715px;
-  margin-top: -8px;
+  margin-top: -16px;
 
-  button {
-    border: 1px solid $color5;
-    background-color: unset;
-    font-family: $fontOpen;
-    font-size: 15px;
-    margin-left: 140px;
-    padding: 10px;
-    margin-top: 10px;
-
-  }
-
-  p {
-    margin-left: 110px;
-    padding: 30px;
-  }
 }
 
+.one-out-of-four {
+  p {
+    padding-top: 26px;
+    margin-left: 144px;
+  }
+}
 
 .checkbox-section {
   padding: 45px;
   margin: 20px 0 20px 100px;
 
   h3 {
-    font-size: 28px;
-    font-weight: bold;
+    font-size: 30px;
+  }
+}
+
+.first-title {
+  h3 {
+    margin: 0;
   }
 }
 
@@ -83,15 +78,22 @@
     justify-content: center;
     align-items: center;
     position: relative;
-    //border-radius: 100px;
-
     border: 1px solid $color5;
     box-shadow: 0 0 0 0 #FAD648 inset;
     transition: all 0.15s cubic-bezier(0, 1.05, 0.72, 1.07);
-
   }
 }
 
 .first-step-button {
-  margin-top: 5px;
+  width: 135px;
+  height: 55px;
+  border: 1px solid $color5;
+  background-color: unset;
+  font-family: $fontOpen;
+  font-size: 15px;
+  margin-left: 140px;
+  padding: 10px;
+  margin-top: 40px;
+
+
 }

@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
 import Login2 from "./Login2";
 
-import HomeLoggedIn from "./HomeLoggedIn";
+import HomeLoggedIn from "../HomeLoggedIn/HomeLoggedIn";
 import db from "../firebase"
 
 
