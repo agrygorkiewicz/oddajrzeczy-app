@@ -35,6 +35,11 @@ $ npm start
 ## Usage
 After installing dependencies and running npm start, you will be able to view app in your browser at localhost:3000
 
+Use test account to log in:
+
+Email: test@test.pl
+
+Password: haslotest
 ## Learn More
 
 You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).

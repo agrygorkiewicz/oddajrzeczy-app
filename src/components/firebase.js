@@ -1,46 +1,14 @@
-// import firebase from "firebase";
-// import 'firebase/firestore';
-//
-// const firebaseApp = firebase.initializeApp( {
-//     apiKey: "AIzaSyAGnPCRIRA4970Msp14nzswItVT79LkzZc",
-//     authDomain: "project-1003048821196640489.firebaseapp.com",
-//     projectId: "project-1003048821196640489",
-//     storageBucket: "project-1003048821196640489.appspot.com",
-//     messagingSenderId: "319940011299",
-//     appId: "1:319940011299:web:144a183b5ff6b32d881896"
-// });
-//
-//
-// export const {db} = firebaseApp.firestore();
-
- // default db;
-
-
-// import firebase from "firebase";
-//
-// var firebaseConfig = {
-//     apiKey: "AIzaSyAGnPCRIRA4970Msp14nzswItVT79LkzZc",
-//     authDomain: "project-1003048821196640489.firebaseapp.com",
-//     projectId: "project-1003048821196640489",
-//     storageBucket: "project-1003048821196640489.appspot.com",
-//     messagingSenderId: "319940011299",
-//     appId: "1:319940011299:web:144a183b5ff6b32d881896"
-// };
-//
-// const db =  firebase.initializeApp(firebaseConfig);
-//
-// export default db;
 
 import firebase from "firebase";
 
 
 const firebaseApp = firebase.initializeApp( {
-    apiKey: "AIzaSyAGnPCRIRA4970Msp14nzswItVT79LkzZc",
-    authDomain: "project-1003048821196640489.firebaseapp.com",
-    projectId: "project-1003048821196640489",
-    storageBucket: "project-1003048821196640489.appspot.com",
-    messagingSenderId: "319940011299",
-    appId: "1:319940011299:web:144a183b5ff6b32d881896"
+    apiKey: "AIzaSyAdKZtc2zssTuzlYnCIF-wea6DjfitsJbc",
+    authDomain: "oddajrzeczy-12538.firebaseapp.com",
+    projectId: "oddajrzeczy-12538",
+    storageBucket: "oddajrzeczy-12538.appspot.com",
+    messagingSenderId: "455949707512",
+    appId: "1:455949707512:web:1e31f60cfd4a84ad30330d"
 });
 
 

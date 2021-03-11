@@ -1,8 +1,5 @@
 import "../../scss/Nav.scss";
 import React from "react";
-// import {Link} from "react-router-dom";
-// import AnchorLink from "react-anchor-link-smooth-scroll/src";
-// import AnchorLink from 'react-anchor-link-smooth-scroll';
 import {Link as Link2} from "react-router-dom";
 
 const Nav = () => {

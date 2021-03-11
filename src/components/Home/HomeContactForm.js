@@ -50,6 +50,9 @@ const HomeContactForm = () => {
                 .catch(() => {
                     alert("Błąd");
                 });
+            setMessage("");
+            setName("");
+            setEmail("");
         }
     }
 

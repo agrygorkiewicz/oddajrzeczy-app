@@ -24,13 +24,13 @@ const NavHome = () => {
                     <nav>
                         <ul>
                             <li>
-                            <Link to="start" smooth={true} duration={1000}> Start</Link>
+                            <Link to="start" smooth={true} duration={1000}>Start</Link>
                             </li>
                             <li>
-                                <Link to="four-steps" smooth={true} duration={1000}> O co chodzi?</Link>
+                                <Link to="four-steps" smooth={true} duration={1000}>O co chodzi?</Link>
                             </li>
                             <li>
-                                <Link to="about" smooth={true} duration={1000}> O nas</Link>
+                                <Link to="about" smooth={true} duration={1000}>O nas</Link>
                             </li>
                             <li>
                                 <Link to="section-help" smooth={true} duration={1000}> Fundacja i organizacje</Link>
