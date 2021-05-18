@@ -3,12 +3,12 @@ import firebase from "firebase";
 
 
 const firebaseApp = firebase.initializeApp( {
-    apiKey: "AIzaSyAdKZtc2zssTuzlYnCIF-wea6DjfitsJbc",
-    authDomain: "oddajrzeczy-12538.firebaseapp.com",
-    projectId: "oddajrzeczy-12538",
-    storageBucket: "oddajrzeczy-12538.appspot.com",
-    messagingSenderId: "455949707512",
-    appId: "1:455949707512:web:1e31f60cfd4a84ad30330d"
+   apiKey: "AIzaSyCd1YdwOcS6s2-m-z53ctwcKaUfbuAxMDk",
+    authDomain: "oddajrzeczy2.firebaseapp.com",
+    projectId: "oddajrzeczy2",
+    storageBucket: "oddajrzeczy2.appspot.com",
+    messagingSenderId: "861303639853",
+    appId: "1:861303639853:web:58994737beab31458acda4"
 });
 
 
